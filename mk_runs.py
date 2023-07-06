@@ -4,7 +4,6 @@
 import os
 import sys
 
-
 from lmtoy import runs
 
 
@@ -18,7 +17,7 @@ on["NGC4388+vicinity"] = [ 109948, 109949, 109953, 109954, 109960, 109961,    # 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 
-pars1["NGC4388+vicinity"] = ""
+pars1["NGC4388+vicinity"] = "oid=0 bank=0 numbanks=1"        # only 1 bank
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
@@ -26,4 +25,5 @@ pars2 = {}
 pars2["NGC4388+vicinity"] = "pix_list=-13"
 
 if __name__ == '__main__':    
-    runs.mk_runs(project, on, pars1, pars2)
+    runs.mk_runs(project, on, pars1, pars2, sys.argv)
+    print("NOTE BUG: run2a and run2b both need an extra 'oid=0 bank=0'")
