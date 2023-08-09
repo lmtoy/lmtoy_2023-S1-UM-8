@@ -23,3 +23,4 @@ http://www.astro.yale.edu/cgi-bin/viva/galaxy.cgi?ngc4388
 
 https://ned.ipac.caltech.edu/results?source=NEDspectra_output_11_page1_details.html#NGC_4388_26
 
+https://www.aanda.org/articles/aa/full_html/2015/10/aa26551-15/aa26551-15.html
