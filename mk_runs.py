@@ -17,7 +17,7 @@ on["NGC4388+vicinity"] = [ 109948, 109949, 109953, 109954, 109960, 109961,    # 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 
-pars1["NGC4388+vicinity"] = "bank=0 dv=350 dw=400 b_order=1 otf_cal=1"        # only 1 bank
+pars1["NGC4388+vicinity"] = "bank=0 dv=250 dw=400 b_order=1 otf_cal=1"        # only 1 bank
 
 #        common parameters per source on subsequent runs (run1b, run2b)
 pars2 = {}
